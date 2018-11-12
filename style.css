@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "Impact";
+  src: url("Impact.eot");
+  src: url("Impact.eot?#iefix") format("embedded-opentype"),
+       url("Impact.woff2") format("woff2"),
+       url("Impact.woff") format("woff"),
+       url("Impact.ttf") format("ttf"),
+       url("Impact.svg#Impact") format("svg");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Charcoal";
+  src: url("Charcoal.eot");
+  src: url("Charcoal.eot?#iefix") format("embedded-opentype"),
+       url("Charcoal.woff2") format("woff2"),
+       url("Charcoal.woff") format("woff"),
+       url("Charcoal.ttf") format("ttf"),
+       url("Charcoal.svg#CharcoalCY") format("svg");
+  font-style: normal;
+  font-weight: 300;
+}
+
 html, body {
   height: 100%;
 }
