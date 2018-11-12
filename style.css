@@ -1,0 +1,112 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url("img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Impact, Charcoal, sans-serif;
+  color: #fdb56b;
+  position: relative;
+}
+
+.content {
+  height: 100%;
+}
+
+.inner {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.photos {
+  /* display: flex; */
+  width: 500px;
+  /* justify-content: center; */
+}
+
+.photos__name-wrap {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 500px;
+  z-index: -1;
+}
+
+.photos__name {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.photos__img-wrap {
+  max-width: 400px;
+  padding-top: 130px;
+  margin: 0 auto;
+}
+
+.photos__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.concerts-wrap {
+  /* margin: 0 0 0 auto; */
+  padding: 50px 0;
+}
+
+.logo-wrap {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.logo-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+}
+
+.sticky:before,
+.sticky:after {
+  content: '';
+  display: table;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+}
+
+.socials__item {
+  fill: #fdb56b;
+  width: 60px;
+  transition: 0.2s all;
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+
+.socials__item:hover,
+.socials__item:focus {
+  fill: #cf3131;
+}
+
+.socials__item-ic {
+  width: 60px;
+}
