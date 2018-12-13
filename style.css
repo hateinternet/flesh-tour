@@ -75,7 +75,7 @@ body {
 }
 
 .photos__img-wrap {
-  max-width: 400px;
+  max-width: 300px;
   padding-top: 130px;
   margin: 0 auto;
 }
@@ -207,5 +207,60 @@ body {
 
   .socials__item-ic {
     width: 45px;
+  }
+}
+
+.partners {
+  padding-top: 30px;
+}
+
+.partners__text {
+  font-size: 35px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-shadow: 0px 0px 20px #000000;
+}
+
+.partners__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners__item {
+  margin: 10px 20px;
+}
+
+.partners__link {
+  display: block;
+  transition: 0.2s all;
+}
+
+.partners__link--smorodina {
+  max-width: 100px;
+}
+
+.partners__link--boom {
+  max-width: 150px;
+}
+
+.partners__link:hover,
+.partners__link:focus {
+  transform: scale(1.1, 1.1);
+}
+
+.partners__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .partners {
+    padding-bottom: 15px;
+  }
+
+  .partners__text {
+    font-size: 25px;
   }
 }
