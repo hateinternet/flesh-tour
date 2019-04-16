@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Charcoal";
+    src: url("Charcoal.eot");
+    src: url("Charcoal.eot?#iefix") format("embedded-opentype"),
+         url("Charcoal.woff2") format("woff2"),
+         url("Charcoal.woff") format("woff"),
+         url("Charcoal.ttf") format("ttf"),
+         url("Charcoal.svg#CharcoalCY") format("svg");
+    font-style: normal;
+    font-weight: 300;
+}
